@@ -1,0 +1,16 @@
+.container {
+    min-height: 200px;
+}
+span {
+    background-color: deepskyblue;
+}
+p {
+    padding: 1em;
+    border: 1px solid;
+}
+p.cleared {
+    clear: right;
+}
+img {
+    float: right;
+}
