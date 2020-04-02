@@ -1,0 +1,62 @@
+.square-btn {
+    height: 3em;
+    width: 3em;
+    font-size: 2.5em;
+    border: 1px solid;
+    color: deepskyblue;
+    display: inline-block;
+    text-align: center;
+}
+.line-height .square-btn {
+    font-size: 1em;
+    line-height: 3em;
+}
+.table {
+    display: table;
+    vertical-align: middle;
+}
+.table .square-btn {
+    display: table-cell;
+}
+.button {
+    border: 1px solid;
+    display: table;
+    height: 3rem;
+    padding: 0 2em;
+}
+.button span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.wrapper {
+    width: 80%;
+    height: 40rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    position: relative;
+}
+.box-known-sizes {
+    background-color: salmon;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -5rem;
+    top: 50%;
+    margin-top: -5rem;
+}
+.wrapper-translate {
+    background-color: blue;
+    width: 80%;
+    height: 30rem;
+    position: relative;
+}
+.wrapper-translate .box {
+    position: absolute;
+    background-color: red;
+    width: 50%;
+    padding: 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
